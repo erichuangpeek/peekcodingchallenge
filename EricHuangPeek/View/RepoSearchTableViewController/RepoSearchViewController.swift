@@ -80,11 +80,12 @@ class RepoSearchViewController: UIViewController {
         
         // Get the signal of repos from the viewmodel and configure the ui
         let reposFromVM = viewModel.repos.share()
-            
+
         reposFromVM
             .observe(on: MainScheduler.instance)
+            .catch { error in return Observable.just([]) }
             .bind(to: tv.rx.items(cellIdentifier: "cell", cellType: RepoSearchTableViewCell.self)) { row, element, cell in
-                
+
                 cell.configure(with: .init(ownerAvatarURL: element.owner.avatarUrl, stargazerCount: element.stargazerCount, ownerName: element.owner.name, repoName: element.name))
             }
             .disposed(by: disposeBag)
