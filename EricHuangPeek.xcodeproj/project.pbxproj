@@ -23,7 +23,7 @@
 		68F323D627C03E99002E8860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F323D427C03E99002E8860 /* LaunchScreen.storyboard */; };
 		68F323E127C03E9A002E8860 /* EricHuangPeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F323E027C03E9A002E8860 /* EricHuangPeekTests.swift */; };
 		68F323EC27C03E9A002E8860 /* EricHuangPeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F323EB27C03E9A002E8860 /* EricHuangPeekUITests.swift */; };
-		68F3241927C0554F002E8860 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F3241827C0554F002E8860 /* Api.swift */; };
+		68F3241927C0554F002E8860 /* RenamedApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F3241827C0554F002E8860 /* RenamedApi.swift */; };
 		7699E46AAA24343C1B8A18F1 /* Pods_EricHuangPeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D509C6576C9AF4899DD9D03A /* Pods_EricHuangPeek.framework */; };
 		FBFF7C67551B7B0E4F8D5388 /* Pods_EricHuangPeek_EricHuangPeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452DA9C583DA1E69681B199D /* Pods_EricHuangPeek_EricHuangPeekUITests.framework */; };
 /* End PBXBuildFile section */
@@ -71,7 +71,7 @@
 		68F323E727C03E9A002E8860 /* EricHuangPeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricHuangPeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F323EB27C03E9A002E8860 /* EricHuangPeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EricHuangPeekUITests.swift; sourceTree = "<group>"; };
 		68F323ED27C03E9A002E8860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68F3241827C0554F002E8860 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		68F3241827C0554F002E8860 /* RenamedApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenamedApi.swift; sourceTree = "<group>"; };
 		6A074D9FDC62CD921DF0E483 /* Pods-EricHuangPeekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EricHuangPeekTests.release.xcconfig"; path = "Target Support Files/Pods-EricHuangPeekTests/Pods-EricHuangPeekTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EF37C7E72DFDF708AA8C38D /* Pods_EricHuangPeekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EricHuangPeekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6BFAAB39CFBF263B312455 /* Pods-EricHuangPeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EricHuangPeek.debug.xcconfig"; path = "Target Support Files/Pods-EricHuangPeek/Pods-EricHuangPeek.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		68F3241727C054D7002E8860 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				68F3241827C0554F002E8860 /* Api.swift */,
+				68F3241827C0554F002E8860 /* RenamedApi.swift */,
 				689F368227C1E01500F5797B /* GithubService.swift */,
 			);
 			path = Api;
@@ -476,7 +476,7 @@
 				689F368327C1E01500F5797B /* GithubService.swift in Sources */,
 				689F367127C0809F00F5797B /* RepoSearchViewController.swift in Sources */,
 				689F367927C1B48800F5797B /* Repo.swift in Sources */,
-				68F3241927C0554F002E8860 /* Api.swift in Sources */,
+				68F3241927C0554F002E8860 /* RenamedApi.swift in Sources */,
 				689F369227C20B2700F5797B /* SearchResultItemConnection.swift in Sources */,
 				689F367E27C1B4BE00F5797B /* RepoOwner.swift in Sources */,
 				689F369727C29F4F00F5797B /* RepoSearchViewModel.swift in Sources */,
