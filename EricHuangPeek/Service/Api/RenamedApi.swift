@@ -26,7 +26,7 @@ class API {
                 baseURL: URL(string: "https://api.github.com/graphql")!,
                 commonHeaders: [
                     "content-type": "application/json",
-                    "Authorization": "Bearer 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"
+                    "Authorization": "Bearer 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"
                 ]
             )
         )
@@ -77,6 +77,8 @@ class API {
           if (error != nil) {
             completionHandler(APIResult.failure(error!))
           } else {
+            
+            print(response, "response")
             
             if let httpResponse = response as? HTTPURLResponse {
                 switch httpResponse.statusCode {
